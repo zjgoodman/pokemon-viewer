@@ -38,7 +38,7 @@ class App extends React.Component {
           <p><label className="App-count">#{this.state.count}</label></p>
         </div>
         <div>
-          <img src={"https://img.pokemondb.net/sprites/x-y/normal/" + this.state.name +".png"} />
+          <img src={"https://img.pokemondb.net/sprites/x-y/normal/" + this.state.name +".png"} alt={this.state.name} />
           <h1>{this.state.name}</h1>
         </div>
         <div>
