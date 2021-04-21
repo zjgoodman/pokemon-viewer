@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.App-button {
+  background-color: #ea0a8e; /* tmobile magenta */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.App-count {
+  font-size: 100px;
+}

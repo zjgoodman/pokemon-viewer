@@ -12,17 +12,19 @@ class App extends React.Component {
     return (
       <div className="App">
         <div>
-          <h1>Counter</h1>
+          <h1>Zach's incredible front-end counter app</h1>
         </div>
         <div>
           Click the button below to increase the count!
         </div>
         <div>
-          <button onClick={() => this.setState({count: this.state.count + 1})}>Count!</button>
-          <label>Count: {this.state.count}</label>
+          <button class="App-button" onClick={() => this.setState({ count: this.state.count + 1 })}>Count!</button>
         </div>
         <div>
-          <button onClick={() => this.setState({count: 0})}>Reset count</button>
+          <label className="App-count">{this.state.count}</label>
+        </div>
+        <div>
+          <button onClick={() => this.setState({ count: 0 })}>Reset count</button>
         </div>
       </div>
     );
