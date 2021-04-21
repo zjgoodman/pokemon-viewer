@@ -1,3 +1,5 @@
+Gitlab pages site: https://zgoodma2.gitlab.io/bootcamp-pre-assessment/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
