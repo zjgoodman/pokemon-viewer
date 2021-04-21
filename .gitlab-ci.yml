@@ -24,6 +24,7 @@ pages:
     GIT_STRATEGY: none        # Do not clone git repo
   script:
     # Rename the CRA `build` folder to `public`
+    - rm -rf public
     - mv build public         
   artifacts:
     paths:
